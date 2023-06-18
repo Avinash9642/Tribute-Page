@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #FFFFE0;
+}
+
+h1 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 30px 100px 50px 100px;
+}
+
+.container_1 {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    box-shadow: 3px 3px 10px 6px #666362;
+    margin: 10px 35px 80px 35px;
+}
+
+.box img {
+    height: 350px;
+    width: 220px;
+    transition: transform 0.5s;
+}
+
+.box img:hover {
+    transform: scale(1.25);
+    cursor: pointer;
+    box-shadow: 3px 3px 10px 6px #666362;
+
+} 
+
+a {
+    text-decoration: none;
+    color: #AA6C39;
+}
+.text {
+    color: black;
+}
+
+a:hover {
+    color: #990012;
+}
+
+figcaption {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: #AA6C39;
+}
+
+.container_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container_2 img {
+    border-radius: 20px;
+    filter: drop-shadow(6px 6px 10px #666362);
+    height: 300px;
+    width: 550px;
+    margin: 20px 30px 20px 30px;
+    transition: transform 0.5s;
+}
+
+.container_3 {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.container_3 img {
+    height: 250px;
+    width: 375px;
+    margin: 20px;
+    border-radius: 40px 0 40px 0;
+    filter: drop-shadow(6px 6px 10px #666362);
+}
+
+.container_4 img {
+    height: 330px;
+    width: 550px;
+    margin: 20px;
+    border: solid 4px black;
+}
+
+.quote_text {
+    margin: 60px 100px 5px 100px;
+    font-style: italic;
+    color: #000F55;
+    
+}
+
+.author {
+    position: relative;
+    left: 70%;
+    font-style: italic;
+    color: #000F55;
+    font-weight: bold;
+}
+footer {
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+footer a {
+    color: blue;
+    text-decoration: underline;
+}
